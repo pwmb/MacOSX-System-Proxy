@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205CBEAD23AB4D51004AE3B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 205CBEAC23AB4D51004AE3B0 /* main.m */; };
+		205CBECA23AB5673004AE3B0 /* SystemProxyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 205CBEC923AB5673004AE3B0 /* SystemProxyManager.h */; };
+		205CBECC23AB5673004AE3B0 /* SystemProxyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 205CBECB23AB5673004AE3B0 /* SystemProxyManager.m */; };
+		205CBED323AB6542004AE3B0 /* libSystemProxyManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 205CBEC723AB5673004AE3B0 /* libSystemProxyManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		205CBED023AB5682004AE3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205CBEA123AB4D51004AE3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205CBEC623AB5673004AE3B0;
+			remoteInfo = SystemProxyManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		205CBEA723AB4D51004AE3B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		205CBEA923AB4D51004AE3B0 /* ProxyPrefManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProxyPrefManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		205CBEAC23AB4D51004AE3B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		205CBEB323AB4DAA004AE3B0 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		205CBEC723AB5673004AE3B0 /* libSystemProxyManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSystemProxyManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		205CBEC923AB5673004AE3B0 /* SystemProxyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemProxyManager.h; sourceTree = "<group>"; };
+		205CBECB23AB5673004AE3B0 /* SystemProxyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemProxyManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		205CBEA623AB4D51004AE3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205CBED323AB6542004AE3B0 /* libSystemProxyManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205CBEC523AB5673004AE3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205CBEA023AB4D51004AE3B0 = {
+			isa = PBXGroup;
+			children = (
+				205CBEAB23AB4D51004AE3B0 /* ProxyPrefManager */,
+				205CBEC823AB5673004AE3B0 /* SystemProxyManager */,
+				205CBEAA23AB4D51004AE3B0 /* Products */,
+				205CBED223AB6542004AE3B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		205CBEAA23AB4D51004AE3B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205CBEA923AB4D51004AE3B0 /* ProxyPrefManager */,
+				205CBEC723AB5673004AE3B0 /* libSystemProxyManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		205CBEAB23AB4D51004AE3B0 /* ProxyPrefManager */ = {
+			isa = PBXGroup;
+			children = (
+				205CBEAC23AB4D51004AE3B0 /* main.m */,
+				205CBEB323AB4DAA004AE3B0 /* main.h */,
+			);
+			path = ProxyPrefManager;
+			sourceTree = "<group>";
+		};
+		205CBEC823AB5673004AE3B0 /* SystemProxyManager */ = {
+			isa = PBXGroup;
+			children = (
+				205CBEC923AB5673004AE3B0 /* SystemProxyManager.h */,
+				205CBECB23AB5673004AE3B0 /* SystemProxyManager.m */,
+			);
+			path = SystemProxyManager;
+			sourceTree = "<group>";
+		};
+		205CBED223AB6542004AE3B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		205CBEC323AB5673004AE3B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205CBECA23AB5673004AE3B0 /* SystemProxyManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		205CBEA823AB4D51004AE3B0 /* ProxyPrefManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205CBEB023AB4D51004AE3B0 /* Build configuration list for PBXNativeTarget "ProxyPrefManager" */;
+			buildPhases = (
+				205CBEA523AB4D51004AE3B0 /* Sources */,
+				205CBEA623AB4D51004AE3B0 /* Frameworks */,
+				205CBEA723AB4D51004AE3B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205CBED123AB5682004AE3B0 /* PBXTargetDependency */,
+			);
+			name = ProxyPrefManager;
+			productName = ProxyPrefManager;
+			productReference = 205CBEA923AB4D51004AE3B0 /* ProxyPrefManager */;
+			productType = "com.apple.product-type.tool";
+		};
+		205CBEC623AB5673004AE3B0 /* SystemProxyManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205CBECD23AB5673004AE3B0 /* Build configuration list for PBXNativeTarget "SystemProxyManager" */;
+			buildPhases = (
+				205CBEC323AB5673004AE3B0 /* Headers */,
+				205CBEC423AB5673004AE3B0 /* Sources */,
+				205CBEC523AB5673004AE3B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemProxyManager;
+			productName = SystemProxyManager;
+			productReference = 205CBEC723AB5673004AE3B0 /* libSystemProxyManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		205CBEA123AB4D51004AE3B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Soumesh;
+				TargetAttributes = {
+					205CBEA823AB4D51004AE3B0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					205CBEC623AB5673004AE3B0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 205CBEA423AB4D51004AE3B0 /* Build configuration list for PBXProject "ProxyPrefManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 205CBEA023AB4D51004AE3B0;
+			productRefGroup = 205CBEAA23AB4D51004AE3B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				205CBEA823AB4D51004AE3B0 /* ProxyPrefManager */,
+				205CBEC623AB5673004AE3B0 /* SystemProxyManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		205CBEA523AB4D51004AE3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205CBEAD23AB4D51004AE3B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205CBEC423AB5673004AE3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205CBECC23AB5673004AE3B0 /* SystemProxyManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		205CBED123AB5682004AE3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205CBEC623AB5673004AE3B0 /* SystemProxyManager */;
+			targetProxy = 205CBED023AB5682004AE3B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		205CBEAE23AB4D51004AE3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		205CBEAF23AB4D51004AE3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		205CBEB123AB4D51004AE3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		205CBEB223AB4D51004AE3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		205CBECE23AB5673004AE3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BW8N4B5FLH;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		205CBECF23AB5673004AE3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BW8N4B5FLH;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		205CBEA423AB4D51004AE3B0 /* Build configuration list for PBXProject "ProxyPrefManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205CBEAE23AB4D51004AE3B0 /* Debug */,
+				205CBEAF23AB4D51004AE3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205CBEB023AB4D51004AE3B0 /* Build configuration list for PBXNativeTarget "ProxyPrefManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205CBEB123AB4D51004AE3B0 /* Debug */,
+				205CBEB223AB4D51004AE3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205CBECD23AB5673004AE3B0 /* Build configuration list for PBXNativeTarget "SystemProxyManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205CBECE23AB5673004AE3B0 /* Debug */,
+				205CBECF23AB5673004AE3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 205CBEA123AB4D51004AE3B0 /* Project object */;
+}
