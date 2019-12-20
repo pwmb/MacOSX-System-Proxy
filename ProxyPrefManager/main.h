@@ -10,6 +10,5 @@
 
 #import <Foundation/Foundation.h>
 #import <SystemConfiguration/SystemConfiguration.h>
-#import "SystemProxyManager.h"
-
+bool SetUnsetSystemProxy(AuthorizationRef authRef, NSSet* interfaceList, NSString* address, NSNumber* port, bool usePAC, bool isClear);
 #endif /* main_h */
